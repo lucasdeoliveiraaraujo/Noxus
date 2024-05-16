@@ -104,15 +104,18 @@
         </div>
     </section>
     
-    <section class="page-section bg-light" id="apresentacao">
+    <section class="page-section bg-light" id="apresentacao"  data-bs-spy="scroll" data-bs-target="#video">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Apresentação</h2>
-                
+                <h3 class="section-subheading text-muted"></h3>
             </div>
             <div class="row">
-                <div class="col-md-6 ">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MkwcK_K3eH4?si=0Z9ghYQcBt2LnCJa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="col-md-12 ">
+                    <div class="ratio ratio-16x9">
+                        <iframe id="video" src="https://www.youtube.com/embed/MkwcK_K3eH4?si=0Z9ghYQcBt2LnCJa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    
                 </div>
 
             </div>
@@ -127,7 +130,7 @@
                     projeto.</h3>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="col-lg-3 col-sm-6 mb-4">
                     <!-- Documentação item 1-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
@@ -148,7 +151,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="col-lg-3 col-sm-6 mb-4">
                     <!-- Documentação item 2-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
@@ -168,7 +171,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="col-lg-3 col-sm-6 mb-4">
                     <!-- Documentação item 3-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
@@ -190,9 +193,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 col-sm-12 mb-4">
+                <div class="col-lg-3 col-sm-6 mb-4">
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
                             <div class="portfolio-hover">
@@ -201,23 +202,29 @@
                                 </div>
                             </div>
 
-                            <img class="img-fluid"
+                            <img class="img-fluid" style="width: 356px; height: 229.5px;"
                                 src="https://c.pxhere.com/images/26/ee/1a18f8f6749c6653dcd5a077a6e4-1571569.jpg!d"
                                 srcset="https://c.pxhere.com/images/26/ee/1a18f8f6749c6653dcd5a077a6e4-1571569.jpg!d"
                                 alt="construir, desenvolve, local, rede, desenhar, conteúdo, computador, processo, projeto, tecnologia, conceito, aplicação, página da web, técnico, Ui, Seo, automação, construção, construção, desenvolvedor, Engenharia, interface, Layout, programação, local na rede Internet, amarelo, linha, placa, paralelo, Clip art, bandeira, Banco de imagens In PxHere">
                         </a>
-                        <div class="portfolio-caption">
+                        <div class="portfolio-caption">    
+                            <a class="figure-font"
+                                href="https://pxhere.com/pt/photo/1571569#google_vignette">
+                                Fonte: PxHere
+
+                            </a>                        
+                            <div class="portfolio-caption-heading">Progresso do projeto</div>
                             <div class="progress" role="progressbar" aria-label="Barra de progresso do projeto"
                                 aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%">
                                 </div>
                             </div>
-                            <div class="portfolio-caption-heading">Progresso do projeto</div>
                             <div class="portfolio-caption-subheading text-muted">100%</div>
                         </div>
                     </div>
                 </div>
             </div>
+          
         </div>
     </section>
 
